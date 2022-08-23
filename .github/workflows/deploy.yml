@@ -14,7 +14,7 @@ env:
   IMAGE_NAME: vue-docker
 
 jobs:
-  push:
+  "build and push":
     runs-on: ubuntu-latest
     permissions:
       packages: write
